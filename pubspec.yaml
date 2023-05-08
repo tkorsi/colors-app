@@ -1,0 +1,20 @@
+name: colors_app
+description: A test project for Solid Works.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  solid_lints: ^0.0.14
+
+flutter:
+  uses-material-design: true
